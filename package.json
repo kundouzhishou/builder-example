@@ -1,0 +1,30 @@
+{
+  "name": "builder-example",
+  "version": "1.0.0",
+  "description": "builder.dev example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundouzhishou/builder-example.git"
+  },
+  "keywords": [
+    "builder"
+  ],
+  "author": "kundouzhishou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kundouzhishou/builder-example/issues"
+  },
+  "homepage": "https://github.com/kundouzhishou/builder-example#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.7",
+    "@nomiclabs/buidler-ethers": "^2.0.2",
+    "@nomiclabs/buidler-waffle": "^2.1.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.0.17"
+  }
+}
